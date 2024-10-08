@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+#imgDado {
+    height: 500px;
+}
+
+#btnRolagem {
+    font-weight: bold;
+    padding: 10px;
+}
+
+#btnRolagem:hover {
+    box-shadow: 1px 1px 5px black;
+}

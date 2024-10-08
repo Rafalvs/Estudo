@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: cadetblue;
+  }
+  
+  h1 {
+    text-align: center;
+    color: red;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  ol {
+    justify-content: center;
+  }
+  
+  li {
+    border: solid 1px black;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    background-color: tan;
+  }
+  
+  li:active {
+    background-color: grey;
+  }
