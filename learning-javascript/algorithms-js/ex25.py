@@ -28,6 +28,11 @@ while(x != "stop"):
     elif(x == "tails"):
         tails += 1
 
-print(f"Number of heads: {heads}\nNumber of tails: {tails}")
+print(f"Head won {heads} times and tails won {tails} times")
 
+total = heads + tails
 
+heads_percentage = (heads / total) * 100 
+tails_percentage = (tails / total) * 100
+
+print(f"{round(heads_percentage, 2)}% Head, {round(tails_percentage, 2)}% Tails")
